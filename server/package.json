@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js",
+    "deploy": "node server.js",
+    "build": "react-scripts build",
+    "test": "reac-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "nico panozo",
   "license": "ISC",
@@ -15,6 +19,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "nodemon": "^2.0.20",
+    "pg": "^8.11.1",
     "uuid": "^9.0.0"
   }
 }

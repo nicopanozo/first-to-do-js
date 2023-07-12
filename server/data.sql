@@ -8,9 +8,6 @@ CREATE TABLE todos (
     date VARCHAR(255)
 );
 
-ALTER TABLE todos 
-RENAME COLUMN DATA TO date;
-
 CREATE TABLE users (
     email VARCHAR(255) PRIMARY KEY,
     hashed_password VARCHAR(255)
