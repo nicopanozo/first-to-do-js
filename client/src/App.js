@@ -11,8 +11,8 @@ const getData = async() => {
     const response = await fetch(`http://localhost:8000/todos/${userEmail}`)
     const json = await response.json()
     setTasks(json)
-  } catch (error) {
-    console.error(error)
+  } catch (err) {
+    console.error(err)
   }
 }
 
